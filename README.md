@@ -71,9 +71,13 @@ Let's change the instance name by modifying env.yaml, and create a heat stack.
 
 ## Practice No.7
 
-Let's create two ports and assign them to an instance by modifying `instance.yaml` and `port.yaml`, and then create a heat stack.
+Let's make it possible to specify a fixed IP address assigned to the port in `env.yaml`.
 
 ## Practice No.8
 
+Let's create two ports and assign them to an instance by modifying `instance.yaml` and `port.yaml`, and then create a heat stack.
+
+## Practice No.9
+
 Let's create a new template file `network.yaml` to create a network, then integrate the create file to existing temlate files.
-Other files might need to be modify.
+Other files might need to be modified
