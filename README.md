@@ -101,3 +101,8 @@ Let's create two ports and assign them to an instance by modifying `instance.yam
 
 Let's create a new template file `network.yaml` to create a network, then integrate the create file to existing temlate files.
 Other files might need to be modified
+
+## Practice No.10
+
+I think it's good idea to automate the setup process of creating test instances/flavors/images/networks/etc after deploying OpenStack.
+Let's create your own template files to setup your verificatoin lab after deploying OpenStack.
