@@ -1,0 +1,25 @@
+heat_template_version: 2013-05-23
+
+description: Manage a port
+
+parameters:
+  network_name:
+    type: string
+    description: Name of the network
+    default: private
+  port_name:
+    type: string
+    description: Name of the port
+    default: my_port 
+
+resources:
+  my_port:
+    type: OS::Neutron::Port
+    properties:
+      name: { get_param: port_name }
+      network: { get_param: network_name }
+
+outputs:
+  result_port_name: 
+    value: 
+      get_attr: [ my_port, name ]

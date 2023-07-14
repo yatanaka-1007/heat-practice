@@ -1,0 +1,42 @@
+heat_template_version: 2013-05-23
+
+description: Manage a instance
+
+parameters:
+  instance_name:
+    type: string
+    default: my_instance
+    description: Name of the instance
+  network_name:
+    type: string
+    description: Name of the network
+    default: private
+  flavor_name:
+    type: string
+    description: Instance type for the instance to be created
+    default: m1.small
+  image_name:
+    type: string
+    default: cirros
+    description: ID or name of the image to use for the instance
+
+resources:
+  my_port:
+    type: My::Port
+    properties:
+      network_name: { get_param: network_name }
+      port_name: my_port
+
+  my_instance:
+    type: OS::Nova::Server
+    properties:
+      name: { get_param: instance_name}
+      image: { get_param: image_name }
+      flavor: { get_param: flavor_name }
+      networks:
+        - port: { get_attr: [my_port, result_port_name] }
+
+outputs:
+  instance_name: 
+    value: 
+      get_attr: [ my_instance, name ]
