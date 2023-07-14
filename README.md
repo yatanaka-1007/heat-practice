@@ -1,6 +1,26 @@
 # Description
 Let's understand the basic of OpenStack Heat
 
+# Important points to read heat templates
+
+It's important to understand that there are two types of heat template.
+
+- Heat template:
+  defines what the heat template creates.
+  consists of the following sections:
+  - parameters
+  - resources
+  - outputs
+
+- Environment file:
+  sets input parameter values, and defines mappings between custom resource types and template file paths.
+  consists of the following sections
+  - resource_registry
+  - parameters
+  - parameter_defaults
+
+For more details, please refer to the following documents.
+
 # Document
 
 Heat template grammar
