@@ -1,6 +1,14 @@
 # Description
 Let's understand the basic of OpenStack Heat
 
+# Document
+
+Heat template grammar
+- https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/16.2/html/advanced_overcloud_customization/assembly_understanding-heat-templates#doc-wrapper
+
+Description of each Heat resource type
+- https://docs.openstack.org/heat/train/template_guide/openstack.html
+
 ## Practice No.1 
 
 Let's create a heat stack by the following command:
