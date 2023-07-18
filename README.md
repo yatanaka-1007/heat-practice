@@ -1,26 +1,6 @@
 # Description
 Let's understand the basic of OpenStack Heat
 
-# Important points to read heat templates
-
-It's important to understand that there are two types of heat template.
-
-- Heat template:
-  defines what the heat template creates.
-  consists of the following sections:
-  - parameters
-  - resources
-  - outputs
-
-- Environment file:
-  sets input parameter values, and defines mappings between custom resource types and template file paths.
-  consists of the following sections
-  - resource_registry
-  - parameters
-  - parameter_defaults
-
-For more details, please refer to the following documents.
-
 # Document
 
 Heat template grammar
@@ -29,12 +9,21 @@ Heat template grammar
 Description of each Heat resource type
 - https://docs.openstack.org/heat/train/template_guide/openstack.html
 
+# Let's get started
+
+Login to a machine where `openstack` cli can be used, then run the following commands:
+
+```
+$ git clone https://github.com/yatanaka-1007/heat-practice.git
+$ cd heat-practice
+```
+
 ## Practice No.1 
 
 Let's create a heat stack by the following command:
 
 ```
-$ source overcloudrc
+$ source ~/overcloudrc
 $ openstack stack create -t instance.yaml -e env.yaml my_stack
 ```
 
