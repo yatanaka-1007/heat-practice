@@ -90,18 +90,22 @@ Let's change the instance name by modifying env.yaml, and create a heat stack.
 
 ## Practice No.7
 
-Let's make it possible to specify a fixed IP address assigned to the port in `env.yaml`.
+Let's make it possible to specify the port name in `env.yaml`.
 
 ## Practice No.8
 
-Let's create two ports and assign them to an instance by modifying `instance.yaml` and `port.yaml`, and then create a heat stack.
+Let's make it possible to specify a fixed IP address assigned to the port in `env.yaml`.
 
 ## Practice No.9
+
+Let's create two ports and assign them to an instance by modifying `instance.yaml` and `port.yaml`, and then create a heat stack.
+
+## Practice No.10
 
 Let's create a new template file `network.yaml` to create a network, then integrate the create file to existing temlate files.
 Other files might need to be modified
 
-## Practice No.10
+## Practice No.11
 
 I think it's good idea to automate the setup process of creating test instances/flavors/images/networks/etc after deploying OpenStack.
 Let's create your own template files to setup your verificatoin lab after deploying OpenStack.
