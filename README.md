@@ -18,6 +18,16 @@ $ git clone https://github.com/yatanaka-1007/heat-practice.git
 $ cd heat-practice
 ```
 
+You may want to fork this repository before starting this training so that you can save your own customized templates into your forked reporsitory.
+In this case, follow the steps below:
+
+```
+1. Click fork buttom on this GitHub page to create your forked repository
+2. Once your forked repository is created, run the following command in your OpenStack environment:
+  $ git clone https://github.com/<your_name>/heat-practice.git
+  $ cd heat-practice
+```
+
 ## Practice No.1 
 
 Let's create a heat stack by the following command:
