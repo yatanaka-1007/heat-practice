@@ -94,7 +94,8 @@ Once you finished this practice, please delete the created heat stack.
 
 Let's make it possible to specify the port name in `env.yaml`.
 You can modify other template files as well as `env.yaml`.
-Note: Please do not use `parameter_defaults`.
+
+**Note:** Please do not use `parameter_defaults`.
 
 Once you finished this practice, please delete the created heat stack.
 
