@@ -88,22 +88,34 @@ $ openstack port list
 
 Let's change the instance name by modifying env.yaml, and create a heat stack.
 
+Once you finished this practice, please delete the created heat stack.
+
 ## Practice No.7
 
 Let's make it possible to specify the port name in `env.yaml`.
+You can modify other template files as well as `env.yaml`.
+Note: Please do not use `parameter_defaults`.
+
+Once you finished this practice, please delete the created heat stack.
 
 ## Practice No.8
 
 Let's make it possible to specify a fixed IP address assigned to the port in `env.yaml`.
 
+Once you finished this practice, please delete the created heat stack.
+
 ## Practice No.9
 
 Let's create two ports and assign them to an instance by modifying `instance.yaml` and `port.yaml`, and then create a heat stack.
+
+Once you finished this practice, please delete the created heat stack.
 
 ## Practice No.10
 
 Let's create a new template file `network.yaml` to create a network, then integrate the create file to existing temlate files.
 Other files might need to be modified
+
+Once you finished this practice, please delete the created heat stack.
 
 ## Practice No.11
 
