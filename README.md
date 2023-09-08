@@ -107,13 +107,13 @@ Once you finished this practice, please delete the created heat stack.
 
 ## Practice No.9
 
-Let's create two ports and assign them to an instance by modifying `instance.yaml` and `port.yaml`, and then create a heat stack.
+Let's create two ports and assign them to an instance, and then create a heat stack.
 
 Once you finished this practice, please delete the created heat stack.
 
 ## Practice No.10
 
-Let's create a new template file `network.yaml` to create a network, then integrate the create file to existing temlate files.
+Let's create a new template file `network.yaml` to create a network and subnet, then integrate the create file into existing temlate files.
 Other files might need to be modified
 
 Once you finished this practice, please delete the created heat stack.
